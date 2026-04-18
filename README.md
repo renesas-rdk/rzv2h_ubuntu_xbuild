@@ -36,4 +36,4 @@ For known limitations, see [Non-Relocatable Sysroot CMake Paths](https://renesas
 
 ## Change Log
 
-See [CHANGELOG](./CHANGELOG).
+See [CHANGELOG](./CHANGELOG.md).
