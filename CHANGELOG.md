@@ -1,5 +1,21 @@
 # Change Log
 
+## [1.1.0] - 2026-05-11
+
+### Added
+
+- Added support for Claude Code and Codex skills for building, deployment, debugging, and organization management.
+- Enhanced deployment and debugging skills.
+
+### Updated
+
+- Updated the `cross-colcon-build` script to enhance the build process and improve error handling.
+- Changed the `rzv2h-chroot` command to `arm64-chroot` for better generality and consistency with other architectures.
+
+### Fixed
+
+- Fixed an issue where the `cross-colcon-build` script did not properly handle certain build configurations, which caused all packages to rebuild instead of only the changed ones.
+
 ## [1.0.1] - 2026-04-16
 
 ### Added
